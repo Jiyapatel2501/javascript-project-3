@@ -90,6 +90,17 @@ document.getElementById('sort-descending').innerHTML = `Sorted array descending 
 let less_8_Arr = ['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby'];
 document.getElementById('less-8-arr').innerHTML = `Array = [ ${less_8_Arr} ]`;
 document.getElementById('less-8-output').innerHTML = `element which has less than 8 character => ${less_8_Arr.filter(element => element.length < 8)}`;
+// Question-9  write a JavaScript program to  to print expected output for following string.
+let str1 = "airplane";
+document.getElementById('str-1').innerHTML = `Input : ${str1}`;
+document.getElementById('str1-output').innerHTML = `Output : ${str1[2]}`;
+let str2 = "oxoxoxox";
+document.getElementById('str-2').innerHTML = `Input : ${str2}`;
+document.getElementById('str2-output').innerHTML = `Output : ${str2.replaceAll('x', 'X')}`;
+let str3 = "A New Java Book";
+document.getElementById('str-3').innerHTML = `Input : ${str3}`;
+document.getElementById('str3-output1').innerHTML = `Output = 1 : ${str3.toLowerCase()}`;
+document.getElementById('str3-output2').innerHTML = `Output = 2 : ${str3.toUpperCase()}`;
 // Question-10  write a JavaScript program for array reverse.
 let revArr = [10, 20, 30, 40, 50];
 document.getElementById('reverse-arr').innerHTML = `Array = [ ${revArr} ]`;

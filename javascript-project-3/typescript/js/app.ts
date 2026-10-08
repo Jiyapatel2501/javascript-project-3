@@ -118,6 +118,23 @@ let less_8_Arr:string[]=['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby'];
 document.getElementById('less-8-arr')!.innerHTML=`Array = [ ${less_8_Arr} ]`;
 document.getElementById('less-8-output')!.innerHTML=`element which has less than 8 character => ${less_8_Arr.filter(element=>element.length<8)}`
 
+// Question-9  write a JavaScript program to  to print expected output for following string.
+
+let str1:string="airplane";
+document.getElementById('str-1')!.innerHTML=`Input : ${str1}`;
+document.getElementById('str1-output')!.innerHTML=`Output : ${str1[2]}`;
+
+let str2:string="oxoxoxox";
+document.getElementById('str-2')!.innerHTML=`Input : ${str2}`;
+document.getElementById('str2-output')!.innerHTML=`Output : ${str2.replaceAll('x','X')}`;
+
+let str3:string="A New Java Book";
+document.getElementById('str-3')!.innerHTML=`Input : ${str3}`;
+document.getElementById('str3-output1')!.innerHTML=`Output = 1 : ${str3.toLowerCase()}`;
+document.getElementById('str3-output2')!.innerHTML=`Output = 2 : ${str3.toUpperCase()}`;
+
+
+
 // Question-10  write a JavaScript program for array reverse.
 
 let revArr:number[]=[10,20,30,40,50];
@@ -165,14 +182,5 @@ document.getElementById('arr-str')!.innerHTML=`Output => [ ${strInput.split(" ")
 let arrInput:any[]= ['5', 32, 'Daniel'];
 document.getElementById('arr')!.innerHTML=`Input => [ ${arrInput} ]`;
 document.getElementById('str-arr')!.innerHTML=`Input => ${arrInput.toString()}`;
-
-
-
-
-
-
-
-
-
 
 
